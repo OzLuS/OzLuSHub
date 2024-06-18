@@ -111,8 +111,33 @@ local Button = GamesTab:CreateButton({
 local Section = GamesTab:CreateSection("Blade Ball")
 
 local Button = GamesTab:CreateButton({
-        Name = "Blob Hub",
+        Name = "DungKee",
         Callback = function()
             loadstring(game:HttpGet("https://github.com/Stang001/pulawat/blob/main/BladeBall.lua?raw=true"))()
+        end,
+})
+
+local Section = GamesTab:CreateSection("BrookHaven")
+
+local Button = GamesTab:CreateButton({
+        Name = "Blizzard Hub V2",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/uaahjajajqoqiqkqhwhwhw/Blizzard-Hub-Official/main/Blizzard%20Hub%20V2.lua", true))()
+        end,
+})
+
+local Section = GamesTab:CreateSection("Blox Fruits")
+
+local Button = GamesTab:CreateButton({
+        Name = "Alchemy Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+        end,
+})
+
+local Button = GamesTab:CreateButton({
+        Name = "Mbmx hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/0135"))()
         end,
 })
