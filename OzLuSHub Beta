@@ -97,3 +97,13 @@ local Slider = MainTab:CreateSlider({
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
    end,
 })
+
+local GamesTab = Window:CreateTab("Games", nil)
+local Section = GamesTab:CreateSection("Games")
+
+local Button = GamesTab:CreateButton({
+        Name = "Infinite Yield",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+        end,
+})
