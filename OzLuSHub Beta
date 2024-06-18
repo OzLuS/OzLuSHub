@@ -117,12 +117,12 @@ local Button = GamesTab:CreateButton({
         end,
 })
 
-local Section = GamesTab:CreateSection("Example")
+local Section = GamesTab:CreateSection("BrookHaven")
 
 local Button = GamesTab:CreateButton({
-        Name = "Test Hub",
+        Name = "SilentExploit",
         Callback = function()
-            print('Test Hub Executed')
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/SilentExpl/Loader-Source-/main/SilentExploit.md'))()
         end,
 })
 
