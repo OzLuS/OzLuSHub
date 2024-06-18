@@ -117,12 +117,12 @@ local Button = GamesTab:CreateButton({
         end,
 })
 
-local Section = GamesTab:CreateSection("BrookHaven")
+local Section = GamesTab:CreateSection("Example")
 
 local Button = GamesTab:CreateButton({
-        Name = "Blizzard Hub V2",
+        Name = "Test Hub",
         Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/uaahjajajqoqiqkqhwhwhw/Blizzard-Hub-Official/main/Blizzard%20Hub%20V2.lua", true))()
+            print('Test Hub Executed')
         end,
 })
 
