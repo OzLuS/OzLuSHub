@@ -99,11 +99,20 @@ local Slider = MainTab:CreateSlider({
 })
 
 local GamesTab = Window:CreateTab("Games", nil)
-local Section = GamesTab:CreateSection("Games")
+local Section = GamesTab:CreateSection("Admin")
 
 local Button = GamesTab:CreateButton({
         Name = "Infinite Yield",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+        end,
+})
+
+local Section = GamesTab:CreateSection("Blade Ball")
+
+local Button = GamesTab:CreateButton({
+        Name = "Blob Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://github.com/Stang001/pulawat/blob/main/BladeBall.lua?raw=true"))()
         end,
 })
