@@ -129,15 +129,8 @@ local Button = GamesTab:CreateButton({
 local Section = GamesTab:CreateSection("Blox Fruits")
 
 local Button = GamesTab:CreateButton({
-        Name = "Alchemy Hub",
+        Name = "MinGamingV4",
         Callback = function()
-            loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
-        end,
-})
-
-local Button = GamesTab:CreateButton({
-        Name = "Mbmx hub",
-        Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/0135"))()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
         end,
 })
