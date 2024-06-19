@@ -181,14 +181,14 @@ local Button = GamesTab:CreateButton({
         end,
 })
 
---Toilet Tower Defense
-local Section = GamesTab:CreateSection("Toilet Tower Defense")
+--Defender Depot 2
+local Section = GamesTab:CreateSection("Defender Depot 2")
 
 local Button = GamesTab:CreateButton({
-        Name = "Nousigi Hub",
+        Name = "OzLuS Hub",
         Callback = function()
             getgenv().thunderclient = true
-            loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
+            loadstring(game:HttpGet(('https://paste.ee/r/BZFqA'),true))()
         end,
 })
 
@@ -199,5 +199,25 @@ local Button = GamesTab:CreateButton({
         Name = "Zap Hub",
         Callback = function()
             loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+        end,
+})
+
+--Knockout Simulator
+local Section = GamesTab:CreateSection("Knockout Simulator")
+
+local Button = GamesTab:CreateButton({
+        Name = "OzLuS Hub",
+        Callback = function()
+            loadstring(game:HttpGet(('https://paste.ee/r/NiDck'),true))()
+        end,
+})
+
+--Power Slap Simulator
+local Section = GamesTab:CreateSection("Power Slap Simulator")
+
+local Button = GamesTab:CreateButton({
+        Name = "OzLuS Hub",
+        Callback = function()
+            loadstring(game:HttpGet(('https://paste.ee/r/9BhYY'),true))()
         end,
 })
