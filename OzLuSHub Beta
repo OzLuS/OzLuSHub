@@ -196,13 +196,9 @@ local Button = GamesTab:CreateButton({
 local Section = GamesTab:CreateSection("Pet Simulator 99")
 
 local Button = GamesTab:CreateButton({
-        Name = "Huge Games",
+        Name = "Zap Hub",
         Callback = function()
-           getgenv().AuthKey = "HUGE_xlqpooSIIHFl"
-getgenv().LoadSettings = {
-    Example_Setting = Example_Value
-}
-loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+            loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
         end,
 })
 
@@ -223,5 +219,17 @@ local Button = GamesTab:CreateButton({
         Name = "OzLuS Hub",
         Callback = function()
             loadstring(game:HttpGet(('https://paste.ee/r/9BhYY'),true))()
+        end,
+})
+
+--
+
+--Evade
+local Section = GamesTab:CreateSection("Evade")
+
+local Button = GamesTab:CreateButton({
+        Name = "Tbao Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
         end,
 })
